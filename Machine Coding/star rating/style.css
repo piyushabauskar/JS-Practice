@@ -1,0 +1,40 @@
+body{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.star-rating {
+    font-size: 5em;
+    color: lightgray;
+    /* Default color for unselected stars */
+    cursor: pointer;
+}
+
+.star-rating .star {
+    transition: color 0.3s;
+}
+
+/* .star-rating .star:hover
+{
+    color: gold;
+} 
+*/
+
+.star-rating .highlighted {
+    color: gold;
+    /* Color for selected stars */
+}
